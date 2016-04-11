@@ -7,6 +7,7 @@ body {
   padding: 30px;
 }
 
+
 a {
   color: #4183c4;
   text-decoration: none;
@@ -67,4 +68,37 @@ ul {
 
 .chartreuse {
   background-color: chartreuse;
+}
+.story {
+  float:left;
+  width:40%;
+  height:100%;
+}
+.sentiments {
+  border-right:1px solid #ddd;
+  margin-right:30px;
+  padding-right:30px;
+  float:left;
+  width:40%;
+  height:90vh;
+}
+.positive,.negative,.neutral {
+  height:20px;
+  width:2px;
+  float:left;
+}
+.positive {
+  background-color: green;
+}
+.negative {
+  background-color: red;
+}
+.neutral {
+  background-color: grey;
+}
+.concept {
+  clear:both;
+  width:100%;
+}
+.concept_text {
 }
